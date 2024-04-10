@@ -33,7 +33,7 @@
 https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview
 (https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview)
 
-  
+  ![screenshot](/../tax-calculator/Tax-Calculator/tc-1.png?raw=true "Screenshot")
   
 <h2>🧐 Features</h2>
 

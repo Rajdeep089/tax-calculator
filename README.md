@@ -10,8 +10,13 @@
 
 <h2>Project Screenshots:</h2>
 
+### Form & Result
 <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-1.png" width="600" height="300">
 
+### Hover Informations:
+
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-2.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-3.png" width="600" height="300">
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-4.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-5.png" width="600" height="300">
 
 ![screenshot](/../main/Tax-Calculator/tc-1.png "Screenshot")
 

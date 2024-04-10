@@ -12,29 +12,27 @@
 
 ### Form & Result
 <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-1.png" width="600" height="300">
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-11.png" width="600" height="300">
 
-### Hover Informations:
+### Case 1 : Total Income = 4000000/- & age below 40 :
 
-<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-2.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-3.png" width="600" height="300">
-<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-4.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-5.png" width="600" height="300">
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-10.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-11.png" width="600" height="300">
 
-![screenshot](/../main/Tax-Calculator/tc-1.png "Screenshot")
+### Case 2 : Total Income below 800000/- & all age group :
 
-![screenshot](/../main/Tax-Calculator/tc-2.png "Screenshot")
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-12.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-13.png" width="600" height="300">
 
-![screenshot](/../main/Tax-Calculator/tc-3.png "Screenshot")
+### Case 3 : Total Income above 800000/- & all age group OR age below 40 (30% tax) :
 
-![screenshot](/../main/Tax-Calculator/tc-4.png "Screenshot")
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-14.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-15.png" width="600" height="300">
 
-![screenshot](/../main/Tax-Calculator/tc-5.png "Screenshot")
+### Case 4 : Total Income above 800000/- & age 40 to 59 (40% tax) :
 
-![screenshot](/../main/Tax-Calculator/tc-6.png "Screenshot")
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-16.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-17.png" width="600" height="300">
 
-![screenshot](/../main/Tax-Calculator/tc-7.png "Screenshot")
+### Case 5 : Total Income above 800000/- & age 60 or above (10% tax) :
 
-![screenshot](/../main/Tax-Calculator/tc-8.png "Screenshot")
-
-![screenshot](/../main/Tax-Calculator/tc-9.png "Screenshot")
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-18.png" width="600" height="300"> <img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-19.png" width="600" height="300">
 
   
 <h2>🧐 Features</h2>

@@ -10,30 +10,24 @@
 
 <h2>Project Screenshots:</h2>
 
-![screenshot](/../main/Tax-Calculator/tc-1.png =100x100 "Screenshot")
+![screenshot](/../main/Tax-Calculator/tc-1.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1CD5OEWFgsc2Ej-sr13UsXEOm_RiVjsr3/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-2.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1CxceMcsSvr5cB9gjFi_iogTsokN030j_/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-3.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1t7_AJY4hflaTsOvLKXktX6liK7ZCzuxz/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-4.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/14jmkGfrHjtWnmpFH_bMlG_OEHhRe7egS/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-5.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-6.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1_F4hNpFTr5yRAW4WBVNiTnH6uiQ1VROY/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-7.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1ScAhaESRkH-C6v2A2ZDk9v4o40xWEqkj/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
+![screenshot](/../main/Tax-Calculator/tc-8.png "Screenshot")
 
-<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview" alt="project-screenshot" width="400" height="400">
+![screenshot](/../main/Tax-Calculator/tc-9.png "Screenshot")
 
-<iframe src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview" width="640" height="480" allow="autoplay"></iframe>
-
-https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview
-(https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview)
-
-  ![screenshot](/../main/Tax-Calculator/tc-1.png "Screenshot")
   
 <h2>🧐 Features</h2>
 

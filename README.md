@@ -10,23 +10,23 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://drive.google.com/file/d/1RF5oMF2hJn_RMWH7ZALm2j9_KPZaYWEV/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1RF5oMF2hJn_RMWH7ZALm2j9_KPZaYWEV/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1CD5OEWFgsc2Ej-sr13UsXEOm_RiVjsr3/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1CD5OEWFgsc2Ej-sr13UsXEOm_RiVjsr3/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1CxceMcsSvr5cB9gjFi_iogTsokN030j_/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1CxceMcsSvr5cB9gjFi_iogTsokN030j_/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1t7_AJY4hflaTsOvLKXktX6liK7ZCzuxz/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1t7_AJY4hflaTsOvLKXktX6liK7ZCzuxz/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/14jmkGfrHjtWnmpFH_bMlG_OEHhRe7egS/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/14jmkGfrHjtWnmpFH_bMlG_OEHhRe7egS/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1_F4hNpFTr5yRAW4WBVNiTnH6uiQ1VROY/view?usp=sharing" alt="project-screenshot" width="400" height="400/">
+<img src="https://drive.google.com/file/d/1_F4hNpFTr5yRAW4WBVNiTnH6uiQ1VROY/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1ScAhaESRkH-C6v2A2ZDk9v4o40xWEqkj/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1ScAhaESRkH-C6v2A2ZDk9v4o40xWEqkj/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1UD2bdY683Afg7W6VvUimFg_3JVH5DTiF/view?usp=sharing" alt="project-screenshot" width="400" height="400">
+<img src="https://drive.google.com/file/d/1UD2bdY683Afg7W6VvUimFg_3JVH5DTiF/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
   
   

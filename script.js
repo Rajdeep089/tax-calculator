@@ -13,13 +13,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Modal elements
     const modal = document.getElementById('resultModal');
-    const modalClose = document.getElementsByClassName('close')[0];
-    const modalResult = document.getElementById('result');
+
+    // Tooltip elements
+const tooltipContainers = document.querySelectorAll('.tooltip-container');
+
+// Function to show tooltip text
+function showTooltipText(event) {
+    const tooltipText = event.currentTarget.querySelector('.tooltip-text');
+    tooltipText.style.visibility = 'visible';
+    tooltipText.style.opacity = '1';
+}
+
+function hideTooltipText(event) {
+    const tooltipText = event.currentTarget.querySelector('.tooltip-text');
+    if (tooltipText) {
+        tooltipText.style.visibility = 'hidden';
+        tooltipText.style.opacity = '0';
+    }
+}
+
+// Event listeners for tooltip containers
+tooltipContainers.forEach(container => {
+    container.addEventListener('mouseenter', showTooltipText);
+    container.addEventListener('mouseleave', hideTooltipText);
+});
+
 
     // Function to show error icon and tooltip
     function showErrorIcon(element, message) {
         element.style.display = 'block';
-        element.setAttribute('title', message);
+        element.innerHTML = `<span class="error-message">${message}</span>!`;
     }
 
     // Function to hide all error icons
@@ -44,30 +67,55 @@ document.addEventListener("DOMContentLoaded", function () {
         const deductions = parseFloat(deductionsInput.value);
         const age = ageSelect.value;
 
-        let hasError = false; // Flag to track if there's an error
+        let hasError = false; 
 
         // Validate inputs
-        if (!incomeInput.value.trim() || !isValidNumber(income) || income <= 0) {
-            showErrorIcon(incomeError, 'Income must be a valid number greater than 0');
-            hasError = true;
-        }
+       
 
-        if (!extraIncomeInput.value.trim() || !isValidNumber(extraIncome) || extraIncome < 0) {
-            showErrorIcon(extraIncomeError, 'Extra Income must be a valid number');
-            hasError = true;
-        }
+        // if (!isValidNumber(extraIncome) || extraIncome < 0) {
+        //     showErrorIcon(extraIncomeError, 'Extra Income must be a valid number');
+        //     hasError = true;
+        // }
 
-        if (!deductionsInput.value.trim() || !isValidNumber(deductions) || deductions < 0) {
-            showErrorIcon(deductionsError, 'Deductions must be a valid number');
-            hasError = true;
-        }
+        // if (!isValidNumber(deductions) || deductions < 0) {
+        //     showErrorIcon(deductionsError, 'Deductions must be a valid number');
+        //     hasError = true;
+        // }
 
         if (age === "") {
             showErrorIcon(ageError, 'Age is required');
             hasError = true;
         }
+        if(!incomeInput.value.trim()){
+            showErrorIcon(incomeError, 'The fields cannot be empty');
+            hasError = true;
+        } else if(incomeInput.value.trim()){
+            if ( !isValidNumber(income) || income <= 0) {
+                showErrorIcon(incomeError, 'Income must be a valid number greater than 0');
+                hasError = true;
+            }
+        }
+        if (!extraIncomeInput.value.trim()){
+            showErrorIcon(extraIncomeError, 'The fields cannot be empty');
+            hasError = true;
+        } else if(extraIncomeInput.value.trim()){
+            if ( !isValidNumber(extraIncome) || extraIncome <= 0) {
+                showErrorIcon(extraIncomeError, 'Extra Income must be a valid number greater than 0');
+                hasError = true;
+            }
+        }
 
-        // If there's an error, stop further execution
+        if (!deductionsInput.value.trim()){
+            showErrorIcon(deductionsError, 'The fields cannot be empty');
+            hasError = true;
+        } else if(deductionsInput.value.trim()){
+            if ( !isValidNumber(deductions) || deductions <= 0) {
+                showErrorIcon(deductionsError, 'Deductions must be a valid number greater than 0');
+                hasError = true;
+            }
+        }
+
+        
         if (hasError) {
             return;
         }
@@ -98,11 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = 'none';
     });
 
-
-    // Event listener for closing the modal
-    modalClose.addEventListener('click', function () {
-        modal.style.display = 'none';
-    });
 
     // Close the modal when clicking outside of it
     window.onclick = function (event) {

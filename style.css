@@ -1,14 +1,16 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #888;
 }
 
-body, .p-container {
+body,
+.p-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +18,7 @@ body, .p-container {
     font-family: Arial, sans-serif;
 }
 
-.p-container{
+.p-container {
     margin: 20px;
     width: 100%;
     height: 95%;
@@ -53,15 +55,12 @@ body, .p-container {
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    border: 1px solid 
-    #8f9eab;
-    background-color: 
-    #8f9eab;
+    border: 1px solid #8f9eab;
+    background-color: #8f9eab;
 }
 
-
 .container {
-    max-width: 500px;
+    min-width: 500px;
     margin: 0 auto;
     border-width: 1px;
     border-style: solid;
@@ -71,25 +70,23 @@ body, .p-container {
     background-color: #ffffff;
 }
 
-/* #taxForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-} */
-
 .form-group {
     margin-bottom: 20px;
+    /* position: relative; */
+}
+.input-group {
+    position: relative;
 }
 
 label {
     font-weight: bold;
 }
+
 .form-control {
-    box-sizing: border-box; /* Include padding and border in width calculation */
-    width: calc(100% - 22px); /* Adjusted width to include padding and border */
+    box-sizing: border-box;
+    width: calc(100% - 22px);
     padding: 10px;
+    margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -108,16 +105,55 @@ label {
 
 .error-icon {
     display: none;
-    float: right;
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    color: white;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    /* float: right; */
+    width: 17px;
+    height: 17px;
+    color: #4c5d6b;
     text-align: center;
     border-radius: 100%;
-    line-height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4c5d6b;
     cursor: pointer;
-    margin-top: 8px;
+    /* margin-top: 14px; */
+}
+
+.error-icon:hover .error-message {
+    visibility: visible;
+    opacity: 1;
+}
+
+.error-message {
+    visibility: hidden;
+    width: 150px;
+    background-color: #4c5d6b;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.error-message::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4c5d6b transparent transparent transparent;
+    transform: translateX(-50%);
 }
 
 .modal {
@@ -145,7 +181,6 @@ label {
     left: 0;
     right: 0;
     bottom: 0;
-    /* transform: translate(-50%, -50%); */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -156,7 +191,6 @@ label {
 #closeModalBtn {
     background-color: #6559f5;
     color: white;
-    /* width: 22px; */
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
@@ -172,47 +206,6 @@ label {
     cursor: pointer;
 }
 
-/* Add tooltip styling */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* Tooltip Icon */
 .tooltip-icon {
     position: relative;
     display: inline-block;
@@ -229,7 +222,6 @@ label {
     padding: 0 3px;
 }
 
-/* Tooltip Text */
 .tooltip-icon .tooltip-text {
     visibility: hidden;
     width: 200px;
@@ -252,7 +244,6 @@ label {
     opacity: 1;
 }
 
-/* Arrow for Tooltip */
 .tooltip-icon .tooltip-text::after {
     content: "";
     position: absolute;
@@ -261,5 +252,43 @@ label {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #007bff transparent transparent transparent;
+    border-color: #4c5d6b transparent transparent transparent;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #4c5d6b;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4c5d6b transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
 }

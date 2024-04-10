@@ -26,7 +26,7 @@
 
 <img src="https://drive.google.com/file/d/1ScAhaESRkH-C6v2A2ZDk9v4o40xWEqkj/view?usp=sharing" alt="project-screenshot" width="400" height="400"/>
 
-<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview" alt="project-screenshot" width="400" height="400"/>
+<img src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview" alt="project-screenshot" width="400" height="400">
 
 <iframe src="https://drive.google.com/file/d/1RoVo21Pk4eZSWtaA_XHJoFB9wWaBkUtW/preview" width="640" height="480" allow="autoplay"></iframe>
 

@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-1.png" width="400" height="400">
+<img src="https://github.com/Rajdeep089/tax-calculator/blob/main/Tax-Calculator/tc-1.png" width="600" height="300">
 
 
 ![screenshot](/../main/Tax-Calculator/tc-1.png "Screenshot")

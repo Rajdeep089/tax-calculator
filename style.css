@@ -60,7 +60,8 @@ body,
 }
 
 .container {
-    min-width: 500px;
+    max-width:500px;
+    width: 80%;
     margin: 0 auto;
     border-width: 1px;
     border-style: solid;

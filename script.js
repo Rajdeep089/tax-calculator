@@ -69,19 +69,9 @@ tooltipContainers.forEach(container => {
 
         let hasError = false; 
 
-        // Validate inputs
        
-
-        // if (!isValidNumber(extraIncome) || extraIncome < 0) {
-        //     showErrorIcon(extraIncomeError, 'Extra Income must be a valid number');
-        //     hasError = true;
-        // }
-
-        // if (!isValidNumber(deductions) || deductions < 0) {
-        //     showErrorIcon(deductionsError, 'Deductions must be a valid number');
-        //     hasError = true;
-        // }
-
+                
+        // Validate inputs
         if (age === "") {
             showErrorIcon(ageError, 'Age is required');
             hasError = true;
@@ -95,7 +85,8 @@ tooltipContainers.forEach(container => {
                 hasError = true;
             }
         } else if(incomeInput.value.trim() && isValidNumber(income)|| income > 0){
-            hasError = False;
+            hasError = false;
+            incomeError.style.display = 'none';
         }
 
         if (!extraIncomeInput.value.trim()){
@@ -107,7 +98,8 @@ tooltipContainers.forEach(container => {
                 hasError = true;
             }
         } else if (extraIncomeInput.value.trim() && isValidNumber(extraIncome) || extraIncome > 0){
-            hasError = False;
+            hasError = false;
+            extraIncomeError.style.display = 'none';
         }
 
         if (!deductionsInput.value.trim()){
@@ -119,7 +111,8 @@ tooltipContainers.forEach(container => {
                 hasError = true;
             }
         } else if (deductionsInput.value.trim() && isValidNumber(deductions) || deductions > 0){
-            hasError = False;
+            hasError = false;
+            deductionsError.style.display = 'none';
         }
 
         

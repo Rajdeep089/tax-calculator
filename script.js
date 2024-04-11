@@ -94,7 +94,10 @@ tooltipContainers.forEach(container => {
                 showErrorIcon(incomeError, 'Income must be a valid number greater than 0');
                 hasError = true;
             }
+        } else if(incomeInput.value.trim() && isValidNumber(income)|| income > 0){
+            hasError = False;
         }
+
         if (!extraIncomeInput.value.trim()){
             showErrorIcon(extraIncomeError, 'The fields cannot be empty');
             hasError = true;
@@ -103,6 +106,8 @@ tooltipContainers.forEach(container => {
                 showErrorIcon(extraIncomeError, 'Extra Income must be a valid number greater than 0');
                 hasError = true;
             }
+        } else if (extraIncomeInput.value.trim() && isValidNumber(extraIncome) || extraIncome > 0){
+            hasError = False;
         }
 
         if (!deductionsInput.value.trim()){
@@ -113,6 +118,8 @@ tooltipContainers.forEach(container => {
                 showErrorIcon(deductionsError, 'Deductions must be a valid number greater than 0');
                 hasError = true;
             }
+        } else if (deductionsInput.value.trim() && isValidNumber(deductions) || deductions > 0){
+            hasError = False;
         }
 
         

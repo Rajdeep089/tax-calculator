@@ -50,21 +50,6 @@
                 
             </div>
             <div class="form-group">
-                <label for="deductions">Enter Total Applicable Deductions (₹)
-                    <div class="tooltip-container">
-                        <span class="tooltip-icon">
-                    <span>?</span>
-                </span>
-                    <span class="tooltip-text" title="">Amount subtracted from the total income to arrive at the taxable income. Must be a valid number. </span>
-                </div>
-                </label>
-                <div class="input-group">
-                <input type="text" id="deductions" class="form-control" placeholder="Enter Deductions">
-                <div class="error-icon tooltip" id="deductionsError" >!</div>
-                    </div>
-                
-            </div>
-            <div class="form-group">
                 <label for="age">Enter Age Group
                     <div class="tooltip-container">
                     <span class="tooltip-icon">
@@ -84,6 +69,22 @@
                 <div class="error-icon tooltip" id="ageError">!</div>
                    </div>
             </div>
+            <div class="form-group">
+                <label for="deductions">Enter Total Applicable Deductions (₹)
+                    <div class="tooltip-container">
+                        <span class="tooltip-icon">
+                    <span>?</span>
+                </span>
+                    <span class="tooltip-text" title="">Amount subtracted from the total income to arrive at the taxable income. Must be a valid number. </span>
+                </div>
+                </label>
+                <div class="input-group">
+                <input type="text" id="deductions" class="form-control" placeholder="Enter Deductions">
+                <div class="error-icon tooltip" id="deductionsError" >!</div>
+                    </div>
+                
+            </div>
+            
             <button type="button" id="calculateBtn" class="btn btn-primary">Submit</button>
         </form>
     </div>
